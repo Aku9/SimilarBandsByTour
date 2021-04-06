@@ -235,7 +235,7 @@ class FindTourMates:
         all_bands = []
         # 1. Download data
         for show in range(0, len(checklist)):
-            print(checklist[show])
+            # print(checklist[show])
             if not done_for_the_day:
                 if not checklist[show]['complete']:
                     venue_code = checklist[show]['venue']
